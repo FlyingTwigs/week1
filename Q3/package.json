@@ -13,5 +13,8 @@
   },
   "scripts": {
     "test": ". scripts/bonus-compile.sh && node scripts/bonus-bump-solidity.js && npx hardhat test"
+  },
+  "dependencies": {
+    "package.json": "^2.0.1"
   }
 }
